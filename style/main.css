@@ -1,0 +1,119 @@
+* {
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+:root {
+    --red: #E50914;
+    --black: #100022;
+}
+
+/*Layout of the Web*/
+
+body {
+    background-color: var(--black);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: snow;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--red);
+    font-family: 'VCR OSD Mono Regular', Times;
+    font-style: normal;
+    font-size: 36px;
+    margin-left: 3px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+    margin-right: 3px;
+    font-family: 'Minecraftia Regular';
+    font-size: 12px;
+}
+
+header nav a:hover {
+    color:rgb(218, 218, 218)
+}
+
+/*Giving the Aspect*/
+
+.firstSelection {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/resources/Banner.png);
+    height: 550px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.firstSelection .title {
+    margin-top: 25%;
+    font-family: 'Fugaz One Regular';
+    font-size: 25px;
+}
+
+.firstSelection .description {
+    margin-bottom: 50px;
+    font-family: 'Minecraftia Regular';
+    font-size: 13px;
+}
+
+.button {
+    background-color: rgba(46, 46, 46, 0.5);
+    border: none;
+    color: snow;
+
+    padding: 13px 25px;
+    margin-right: 13px;
+
+    cursor: pointer;
+    transition: .6s ease all;
+
+}
+
+.button i{
+    margin-right: 4px;
+}
+
+.button:hover {
+    background-color: rgb(148, 147, 147);
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    margin-left: 30px;
+}
+
+/*Setting the image size*/
+
+.box-music {
+    height: 75%;
+    width: 75%;
+    display: block;
+}
+
+.carousel-musics {
+    margin-top: 15px;
+}
+
+.bg-footer {
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Minecraftia Regular';
+    font-size: 13px;
+}
